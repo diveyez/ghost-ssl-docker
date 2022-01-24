@@ -2,10 +2,10 @@ version: "3"
 
 services:
   ghost:
-    image: ghost:2-alpine
+    # UPDATED TO HOW THE CURRENT TAGS ARE LISTED
+    image: ghost:alpine
     volumes:
       - data:/var/lib/ghost/content
 
 volumes:
   data:
-
